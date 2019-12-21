@@ -1359,9 +1359,51 @@ section.lazy-placeholder:after {
 .cid-rHf4zY4yBI .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+.cid-rHf4IRJpra {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rHf4IRJpra [class^="socicon-"]:before,
+.cid-rHf4IRJpra [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-rHf4IRJpra .btn-social {
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  position: relative;
+  color: #232323;
+  cursor: pointer;
+  border-color: #149dcc;
+}
+.cid-rHf4IRJpra .btn-social i {
+  top: 0;
+  line-height: 44px;
+  width: 44px;
+}
+.cid-rHf4IRJpra .btn-social:hover {
+  color: #fff;
+  background: #149dcc;
+}
+.cid-rHf4IRJpra .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+.cid-rHf4IRJpra .btn-social + .btn {
+  margin-left: .1rem;
+}
+@media (max-width: 767px) {
+  .cid-rHf4IRJpra .btn {
+    font-size: 20px !important;
+  }
+}
 .cid-qTkAaeaxX5 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #073b4c;
 }
 @media (max-width: 767px) {
@@ -1424,47 +1466,5 @@ section.lazy-placeholder:after {
   .cid-qTkAaeaxX5 .footer-lower .social-list {
     justify-content: center;
     -webkit-justify-content: center;
-  }
-}
-.cid-rHf4IRJpra {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-rHf4IRJpra [class^="socicon-"]:before,
-.cid-rHf4IRJpra [class*=" socicon-"]:before {
-  line-height: 44px;
-}
-.cid-rHf4IRJpra .btn-social {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 0;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  position: relative;
-  color: #232323;
-  cursor: pointer;
-  border-color: #149dcc;
-}
-.cid-rHf4IRJpra .btn-social i {
-  top: 0;
-  line-height: 44px;
-  width: 44px;
-}
-.cid-rHf4IRJpra .btn-social:hover {
-  color: #fff;
-  background: #149dcc;
-}
-.cid-rHf4IRJpra .btn-social:hover i.socicon {
-  color: #ffffff !important;
-}
-.cid-rHf4IRJpra .btn-social + .btn {
-  margin-left: .1rem;
-}
-@media (max-width: 767px) {
-  .cid-rHf4IRJpra .btn {
-    font-size: 20px !important;
   }
 }
